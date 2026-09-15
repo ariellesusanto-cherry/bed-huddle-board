@@ -1,5 +1,8 @@
 # Bed Huddle Board
 
+**Live demo:** https://bed-huddle-board.vercel.app
+
+
 A working prototype of the board a nurse manager would have open
 during the bed huddle. It is built to be demoed end to end by
 one person, with a guided tour built in.
