@@ -62,7 +62,7 @@ export function Handoff({
 
         {log.length === 0 ? (
           <p className="block-note">
-            Nothing worked yet. Assign or clear a card on the huddle board and
+            Nothing worked yet. Assign or clear a card on the board and
             it lands here.
           </p>
         ) : (

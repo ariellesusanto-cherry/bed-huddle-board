@@ -18,7 +18,7 @@ export const USER = {
 export type TabId = 'board' | 'timeline' | 'patients' | 'teams' | 'handoff' | 'method';
 
 export const TABS: { id: TabId; label: string; blurb: string }[] = [
-  { id: 'board', label: 'Huddle board', blurb: 'What to work now' },
+  { id: 'board', label: 'Board', blurb: 'What to work now' },
   { id: 'timeline', label: 'Next 6 hours', blurb: 'Beds freeing up against beds needed' },
   { id: 'patients', label: 'Patients', blurb: 'All twelve expected moves' },
   { id: 'teams', label: 'Teams', blurb: 'Who owes you a call back' },
