@@ -3,7 +3,7 @@
  * The board speaks to the person operating it. It does not explain itself.
  */
 
-export const PRODUCT_NAME = 'Bed Huddle Board';
+export const PRODUCT_NAME = 'Patient Flow Board';
 
 export const HUDDLE_TIME = '3:00 PM';
 export const HUDDLE_LABEL = 'Evening bed huddle';

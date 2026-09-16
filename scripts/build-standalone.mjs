@@ -24,7 +24,7 @@ if (script.includes('</script')) {
 }
 
 // No <!doctype>, <html>, <head> or <body> tags: the Artifact host supplies them.
-const html = `<title>Bed Huddle Board</title>
+const html = `<title>Patient Flow Board</title>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap">
 <style>
@@ -36,7 +36,7 @@ ${script}
 </script>
 `;
 
-writeFileSync(join('artifact', 'bed-huddle-board.html'), html);
+writeFileSync(join('artifact', 'patient-flow-board.html'), html);
 console.log(
-  `Wrote artifact/bed-huddle-board.html (${(html.length / 1024).toFixed(0)} KB)`,
+  `Wrote artifact/patient-flow-board.html (${(html.length / 1024).toFixed(0)} KB)`,
 );

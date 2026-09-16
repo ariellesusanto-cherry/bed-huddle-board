@@ -1,6 +1,6 @@
-# Bed Huddle Board
+# Patient Flow Board
 
-**Live demo:** https://bed-huddle-board.vercel.app
+**Live demo:** https://patient-flow-board.vercel.app
 
 
 A working prototype of the board a nurse manager would have open
