@@ -45,7 +45,7 @@ export function Board({
   return (
     <div className="panel">
       <PageHeader
-        title="Huddle board"
+        title="Board"
         note="The three open blockers most likely to cost a bed in the next six hours."
         meta={
           <HeadStat value={counts.unresolvedBlockers} label="open blockers" />

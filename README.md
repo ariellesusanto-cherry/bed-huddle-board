@@ -37,7 +37,7 @@ actions taken this huddle.
 
 | Section | What it holds |
 | --- | --- |
-| **Huddle board** | Four capacity figures, then the three queue rows to work now, with a Shift watch rail carrying the next deadline, the longest ED wait, the hours short on beds, and what sits behind the top three. |
+| **Board** | Four capacity figures, then the three queue rows to work now, with a Shift watch rail carrying the next deadline, the longest ED wait, the hours short on beds, and what sits behind the top three. |
 | **Next 6 hours** | Every expected move placed in the hour it is expected, in two lanes: beds freeing up against patients needing a bed. Amber marks a move with an open blocker. Hours where demand exceeds supply are tinted. |
 | **Patients** | All twelve expected moves, with window, status, and blockers-only filters. |
 | **Teams** | The same work grouped by the team that owns it, soonest deadline first, so it is one call per team instead of one call per patient. Assign and clear from here too. |
